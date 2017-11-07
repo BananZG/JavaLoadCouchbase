@@ -1,0 +1,81 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.sicmsb</groupId>
+	<artifactId>loadjson.utils</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Load Json Utils</name>
+
+	<properties>
+		<guava.version>23.0</guava.version>
+		<commons-io.version>2.4</commons-io.version>
+		<rhino.version>1.7.7.2</rhino.version>
+		<couchbase.version>1.4.0</couchbase.version>
+		<jackson.version>2.6.7</jackson.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>${guava.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.6</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-collections4</artifactId>
+			<version>4.1</version>
+		</dependency>
+
+
+		<!-- To read File -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>${commons-io.version}</version>
+		</dependency>
+
+		<!-- To read JS -->
+		<dependency>
+			<groupId>org.mozilla</groupId>
+			<artifactId>rhino</artifactId>
+			<version>${rhino.version}</version>
+		</dependency>
+
+		<!-- To communicate with cblite -->
+		<dependency>
+			<groupId>com.couchbase.lite</groupId>
+			<artifactId>couchbase-lite-java</artifactId>
+			<version>${couchbase.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.couchbase.lite</groupId>
+			<artifactId>couchbase-lite-java-sqlcipher</artifactId>
+			<version>${couchbase.version}</version>
+		</dependency>
+
+		<!-- To handle json objects -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-annotations</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
+
+	</dependencies>
+</project>

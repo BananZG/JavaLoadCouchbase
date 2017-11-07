@@ -1,4 +1,17 @@
+#Eclipse
+bin/
+tmp/
+.classpath
+.project
+.externalToolBuilders
+.factorypath
+.settings/
+.metadata/
+ 
+# Maven
+log/
 target/
+temp/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
